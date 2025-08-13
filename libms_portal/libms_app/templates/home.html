@@ -4,7 +4,41 @@
 
 
 {% block main_content %}
+<main role="main">
+<div class="jumbotron">
+    <div class="container">
+        <img src="{% static 'libmslogo.png' %}" class="rounded float-start" alt="LIBMS" height="200" style="margin-right: 20px;">
+        <h1 class="display-4">Hello, Readers</h1>
+        <p>Welcome to City Library . We have a large collection of books to cater the reading needs of all kind of readers</p>
+        <p><a class="btn btn-primary btn-lg" href="" role="button">Browse Our Collection>></a></p>
+    </div>
 
-<h1>Im in a home page</h1>
+</div>
+
+<div class="container ">
+  <div class="row">
+    <div class="col">
+      <h2>Why Reading is Importatnt</h2>
+      <p>Reading is important because it expands knowledge, improves vocabulary, and enhances critical thinking. It exposes us to new perspectives, cultures, and ideas, fostering empathy and understanding. Reading also boosts imagination, creativity, and communication skills, while reducing stress and improving focus. It's a lifelong learning tool.</p>
+    </div>
+    <div class="col">
+      <h2>Key Benefits</h2>
+      <ul>
+        <li>Enhances empathy and understanding of others</li>
+        <li>Supports personal growth and self-awareness</li>
+        <li>Expands vocabulary and communication skills</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Thought for the Day</h2>
+      <p>As we navigate life's journey, it's essential to hold onto inspiring thoughts that motivate us to reach our full potential. Believe in the beauty of your dreams, take that first step towards your goals, and cultivate happiness along the way. You possess inner strength, bravery, and intelligence that can help you overcome challenges and achieve success.</p>
+    </div>
+  </div>
+  <hr>
+</div>
+</main>
+<footer class="container">
+    <p>@ City Library 2025</p>
+</footer>
 
 {% endblock %}
