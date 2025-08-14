@@ -26,4 +26,5 @@ urlpatterns = [
     path('returns', returns),
     path('shop', shopping),
     path('save', save_student),
+    path('readers/add', save_reader),
 ]
